@@ -1,0 +1,12 @@
+#Categories .card .card_image img {
+  width: 100%;
+}
+#Categories .card .card_image .card_body {
+  text-align: center;
+}
+#Categories .card .card_image .card_body .icons {
+  color: rgb(140, 144, 144);
+}
+#Categories .card .card_image .card_body h5 {
+  color: black;
+}/*# sourceMappingURL=main.css.map */
