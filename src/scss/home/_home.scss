@@ -1,25 +1,201 @@
-#Categories {
-  .card {
-    .card_image {
-        
-      img {
-        width: 100%;
+// #Categories {
+//   .card {
+//     .card_image {
+//       img {
+//         width: 100%;
+//       }
+//       .card_body {
+//         text-align: center;
+//         h4 {
+//         }
+//         .icons {
+//           color: rgb(140, 144, 144);
+//         }
+//         h5 {
+//           color: black;
+//         }
+//       }
+//     }
+//   }
+// }
+// #product-name {
+//   margin: 100px 0;
+//   .main-image {
+//     width: 100%;
+//     height: 600px;
+//     overflow: hidden;
+//     img {
+//       width: 100%;
+//       height: 100%;
+//       object-fit: cover;
+//     }
+//   }
 
+//   .little-img {
+//     height: 150px;
+//     height: 150px;
+//     overflow: hidden;
+//     padding: 20px;
+//     img {
+//       width: 100%;
+//       height: 100%;
+//       object-fit: cover;
+//     }
+//   }
+//   .product {
+//     h1 {
+//       margin: 20px 0;
+//     }
+//   }
+//   .btns {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: stretch;
+//     gap: 20px;
+//     .btn1 {
+//       display: flex;
+//       align-items: center;
+//       gap: 4px;
+//       border: 1px solid #ccc;
+//       border-radius: 4px;
+
+//       p {
+//         margin: 0;
+//       }
+//       .minus,
+//       .plus {
+//         width: 40px;
+//         height: 40px;
+//         background-color: transparent;
+//         border: none;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//       }
+//     }
+//     .btn2 {
+//       background-color: black;
+//       color: white;
+//       border: none;
+//       border-radius: 6px;
+//       padding: 8px 12px;
+//       width: 100%;
+//     }
+//     .btn3 {
+//       background-color: transparent;
+//       border: 1px solid #ccc;
+//       width: 40px;
+//       height: 40px;
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+//       border-radius: 4px;
+//     }
+//   }
+//   .list {
+//     margin: 40px 0;
+//     ul {
+//       margin-left: 30px;
+
+//       padding: 0;
+//       li {
+//         margin: 10px 0;
+//         color: gray;
+//       }
+//     }
+//   }
+// }
+
+// #cardlars {
+//   .card {
+//     .card_image {
+//       overflow: hidden;
+
+//       img {
+//         width: 100%;
+//         height: 100%;
+//         object-fit: cover;
+//       }
+//       .image_body{
+//         text-align: center;
+//       }
+//     }
+//   }
+// }
+
+#asgard_sofa {
+  .left {
+    display: flex;
+    gap: 10px;
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      
+    }
+    
+    .left_sub_img {
+      ul {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        @media (max-width: 768px){
+          flex-direction: row;
+        }
+        
+ 
+        li {
+          width: 80px;
+          height: 80px;
+          overflow: hidden;
+          border-radius: 10px;
+          background: #F9F1E7;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            gap: 10px;
+          }
+        }
       }
-      .card_body{
-        text-align: center;
-        h4{
-            
-        }
-        .icons{
-            color: rgb(140, 144, 144);
-        }
-        h5{
-            color: black;
-        }
-        
-
+    }
+    .main_image {
+      margin: 10px;
+      width: 100%;
+      height: 391px;
+      overflow: hidden;
+      img {
+      width: 100%;
+      height: 100%;
+        flex-shrink: 2;
+        object-fit: cover;
+        background-color:#F9F1E7;
+        border-radius: 10px 10px 10px 10px;
+        transition: 0.3s ease-in-out;
+      }
+      &:hover{
+       img{
+        transform: scale(1.2);
+       }
       }
     }
   }
-}
+  .right{
+    h4{
+      margin: 20px;
+    }
+    .image{
+      width: 100%;
+      height: 500px;
+      overflow: hidden ;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    }
+  }
+
+  
+
